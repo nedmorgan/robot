@@ -1,0 +1,42 @@
+const funFacts = [
+  "Banging your head against the wall for 1 hour burns 150 calories",
+  "In Switzerland it is illegal to own just one guinnea pig",
+  "Pteronophobia is the fear of being tickled by feathers",
+  "Snakes can help predict eathquakes",
+  "A flock of crows is known as a murder",
+  "The oldest 'your mom' joke was discovered on a 3,500 year old Babylonian tablet",
+  "So far, two diseases have successfully been eradicated: smallpox and rinderpest",
+  "29th of May is officially 'Put a Pillow on Your Fridge Day'",
+  "Cherophobia is an irrational fear of fun or happiness",
+  "7% of American adults believe that chocolate milk comes from brown cows",
+  "If you lift a kangarro\'s tail off the ground it can\'t hop",
+  "Bananas are curved because they grow towards the sun",
+  "Billy goats urinate on their own heads to smell more attractive to females",
+  "During your life you will product enough saliva to fill two swimming pools",
+  "Polar bears could eat as many as 86 penguins in a single sitting",
+  "King Henry VIII slept with a giant axe beside him",
+  "Movie trailers were originally shows after the movie, which is why they were called trailers",
+  "An eagle can kill a young deer and fly away with it",
+  "A heart attack is more likely to happen on a Monday",
+  "Tennis players are not allowed to swear when they are playing at Wimbledon",
+  "In 2017, more people were killed from injuries caused by taking a selfie than by shark attacks",
+  "The top 5 foods that make you fart are beans, corn, bell peppers, cauliflower, cabbage, and milk",
+  "There is a species of spider called Hobo Spider",
+  "A lion\'s roar can be heard from more than 5 miles away",
+  "Saint Lucia is the only country in the world names after a woman",
+  "The United States navy has started using Xbox controllers for their periscopes",
+  "The following can be read forward and backwards: Do geese see God?",
+  "A sheep, a duck, and a rooster were the first passengers in a hot air balloon",
+  "In Uganda, around 48% of the population is under the age of 15",
+  "The average male gets bored of a shopping trip after 26 minutes",
+  "In the 16th Century, Arab women could initiate a divorce if their husbands didn\'t pour coffee for them",
+  "Recycling one glass jar saves enough energy to watch television for 3 hours",
+  "After the premiere of '16 and Pregnany', teen pregnancy rates dropped",
+  "Approximately 10-20% of U.S. power outages are cuased by squirrels",
+  "Facebook, Instagram, and Twitter are all banned in China", 
+  "95% of people text things they could neveer say in person"
+];
+
+  const clickBox = () => { 
+  document.getElementById('result').innerHTML = funFacts[Math.floor(Math.random() * funFacts.length)];
+  }
