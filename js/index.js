@@ -33,10 +33,10 @@ const funFacts = [
   "Recycling one glass jar saves enough energy to watch television for 3 hours",
   "After the premiere of '16 and Pregnany', teen pregnancy rates dropped",
   "Approximately 10-20% of U.S. power outages are cuased by squirrels",
-  "Facebook, Instagram, and Twitter are all banned in China", 
+  "Facebook, Instagram, and Twitter are all banned in China",
   "95% of people text things they could neveer say in person"
 ];
 
-  const clickBox = () => { 
+const clickBox = () => {
   document.getElementById('result').innerHTML = funFacts[Math.floor(Math.random() * funFacts.length)];
-  }
+}
